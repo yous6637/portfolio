@@ -1,17 +1,13 @@
 "use client";
 
-import { navItems, projects, technologies, testimonials } from "@/data";
+import { navItems, projects } from "@/data";
 
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Technologies from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import { MovingPictures } from "@/components/ui/MovingPictures";
-import { InfiniteMovingCards } from "@/components/ui/InfiniteCards";
 import Projects from "@/components/Projects";
 
 const Home = () => {

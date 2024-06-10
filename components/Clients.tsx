@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import {  technologies, testimonials } from "@/data";
+import {  technologies } from "@/data";
 import { MovingPictures } from "./ui/MovingPictures";
 
 const Technologies = () => {
@@ -10,7 +10,7 @@ const Technologies = () => {
     <section id="testimonials" className="py-20">
       <h1 className="heading">
         <span className="text-purple">Languages </span> and{" "}
-        <span className="text-purple">Technologies</span> that I'm familiar with
+        <span className="text-purple">Technologies</span> that I&apos;m familiar with
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">

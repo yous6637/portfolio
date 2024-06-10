@@ -2,7 +2,7 @@
 
 
 import React from 'react'
-import { projects } from '../data/index';
+import { projects } from '@/data';
 import Image from 'next/image';
 
 type Props = {
@@ -13,7 +13,7 @@ const Projects = ({ projects }: Props) => {
   return (
     <section id="projects" className="py-20">
       <h1 className="heading">
-        <span className="text-purple">Projects</span> I've worked on
+        <span className="text-purple">Projects</span> I&apos;ve worked on
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
@@ -22,7 +22,7 @@ const Projects = ({ projects }: Props) => {
           className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
         >
          {projects.map((project, idx) => (
-            <div className="flex gap-4 md:gap-8 max-w-full">
+            <div key={idx} className="flex gap-4 md:gap-8 max-w-full">
                 <Image alt='' src={project.img} width={200} height={150} />
             <div className="flex flex-col gap-4 md:gap-8 max-w-full" key={idx}>
                 <div className="flex flex-col gap-4 md:gap-8 max-w-full">
