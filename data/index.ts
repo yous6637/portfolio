@@ -153,13 +153,13 @@ export const socialMedia = [
 
 
 export const technologies = [
-  { name : "Azure"  ,src : `https://saasproject.blob.core.windows.net/portfolio/azure.png?${AZURE_SAS}`},
-  { name : "MySql"  ,src : `https://saasproject.blob.core.windows.net/portfolio/mysql.png?${AZURE_SAS}`},
-  { name : "NextJs"  ,src : `https://saasproject.blob.core.windows.net/portfolio/nextjs.png?${AZURE_SAS}`},
-  { name : "Postegresql"  ,src : `https://saasproject.blob.core.windows.net/portfolio/postegresql.png?${AZURE_SAS}`},
-  { name : "React.js"  ,src : `https://saasproject.blob.core.windows.net/portfolio/react.png?${AZURE_SAS}`},
-  { name : "Supabase"  ,src : `https://saasproject.blob.core.windows.net/portfolio/supabase.png?${AZURE_SAS}`},
-  { name : "Tailwind"  ,src : `https://saasproject.blob.core.windows.net/portfolio/tailwind.png?${AZURE_SAS}`},
+  { name : "Azure"  ,src : `azure.png`},
+  { name : "MySql"  ,src : `mysql.png`},
+  { name : "NextJs"  ,src : `nextjs.png`},
+  { name : "Postegresql"  ,src : `postegresql.png`},
+  { name : "React.js"  ,src : `react.png`},
+  { name : "Supabase"  ,src : `supabase.png`},
+  { name : "Tailwind"  ,src : `tailwind.png`},
 
 
 ]
