@@ -3,8 +3,6 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { env } from "process";
-import { AZURE_SAS } from "@/lib/consts";
 import Image from "next/image";
 import { TypewriterEffect } from "./ui/TypeWriter";
 
@@ -49,7 +47,7 @@ const Hero = () => {
 
           <span className="w-28 h-28 rounded-full border-white border-2 overflow-hidden">
             <Image
-              src={`https://saasproject.blob.core.windows.net/portfolio/1692183976369.jpg?${AZURE_SAS}`}
+              src={`youcef.jpg`}
               alt="logo"
               width={112}
               height={112}
