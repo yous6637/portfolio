@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
@@ -47,7 +49,7 @@ const Hero = () => {
 
           <span className="w-28 h-28 rounded-full border-white border-2 overflow-hidden">
             <Image
-              src={`youcef.jpg`}
+              src={`/assets/youcef.jpg`}
               alt="logo"
               width={112}
               height={112}

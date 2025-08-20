@@ -76,7 +76,7 @@ export const projects = [
     id: 1,
     title: "Youtube Clone",
     des: "A Youtube clone built with Next.js, Tailwind CSS, and the Youtube API.",
-    img: `https://saasproject.blob.core.windows.net/portfolio/images.avif?${AZURE_SAS}`,
+    img: `/assets/images.avif`,
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
@@ -86,31 +86,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Youcef was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Youcef's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Youcef is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Youcef was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Youcef's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Youcef is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Youcef was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Youcef's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Youcef is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Youcef was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Youcef's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Youcef is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Youcef was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Youcef's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Youcef is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
@@ -124,14 +124,14 @@ export const workExperience = [
     title: "Oracle DBA Intern - Sonatrach",
     desc: "Worked as an Oracle DBA intern at Sonatrach, the largest oil company in Africa.",
     className: "md:col-span-2",
-    thumbnail: `https://saasproject.blob.core.windows.net/portfolio/GroupmentSonatrachEni.jpg?${AZURE_SAS}`,
+    thumbnail: `assets/GroupmentSonatrachEni.jpg`,
   },
   {
     id: 2,
     title: "Web app development intern - Sonatrach",
     desc: "Developed a web app for the company's internal use.",
     className: "md:col-span-2",
-    thumbnail: `https://saasproject.blob.core.windows.net/portfolio/logo.svg?${AZURE_SAS}`,
+    thumbnail: `/assets/logo.svg`,
   },
  
 ];
@@ -153,13 +153,13 @@ export const socialMedia = [
 
 
 export const technologies = [
-  { name : "Azure"  ,src : `azure.png`},
-  { name : "MySql"  ,src : `mysql.png`},
-  { name : "NextJs"  ,src : `nextjs.png`},
-  { name : "Postegresql"  ,src : `postegresql.png`},
-  { name : "React.js"  ,src : `react.png`},
-  { name : "Supabase"  ,src : `supabase.png`},
-  { name : "Tailwind"  ,src : `tailwind.png`},
+  { name : "Azure"  ,src : `/assets/azure.png`},
+  { name : "MySql"  ,src : `/assets/mysql.png`},
+  { name : "NextJs"  ,src : `/assets/nextjs.png`},
+  { name : "Postegresql"  ,src : `/assets/postegresql.png`},
+  { name : "React.js"  ,src : `/assets/react.png`},
+  { name : "Supabase"  ,src : `/assets/supabase.png`},
+  { name : "Tailwind"  ,src : `/assets/tailwind.png`},
 
 
 ]
