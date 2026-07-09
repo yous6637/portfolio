@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Technologies from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Projects from "@/components/Projects";
 
@@ -20,6 +21,7 @@ const Home = () => {
         {/* <RecentProjects /> */}
         <Technologies />
         <Experience />
+        <Education />
         <Projects projects={projects} />
         <Approach />
         <Footer />

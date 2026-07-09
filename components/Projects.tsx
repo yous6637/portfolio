@@ -23,11 +23,19 @@ const Projects = ({ projects }: Props) => {
         >
          {projects.map((project, idx) => (
             <div key={idx} className="flex gap-4 md:gap-8 max-w-full">
-                <Image alt='' src={project.img} width={200} height={150} />
+                <Image alt={project.title} src={project.img} width={320} height={160} />
             <div className="flex flex-col gap-4 md:gap-8 max-w-full" key={idx}>
                 <div className="flex flex-col gap-4 md:gap-8 max-w-full">
                 <h3 className="text-2xl md:text-3xl font-bold ">{project.title}</h3>
                 <p className="max-w-2xl">{project.des}</p>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-purple font-semibold hover:underline w-fit"
+                >
+                  Visit Site →
+                </a>
                 </div>
             </div>
             </div>

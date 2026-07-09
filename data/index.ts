@@ -3,6 +3,7 @@ import { AZURE_SAS } from "@/lib/consts";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Education", link: "#education" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -74,13 +75,12 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Youtube Clone",
-    des: "A Youtube clone built with Next.js, Tailwind CSS, and the Youtube API.",
-    img: `/assets/images.avif`,
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Menzili — AI-Powered Property Discovery",
+    des: "A platform built to modernize property search using AI. Features intelligent recommendations, smart filtering, and a seamless property browsing experience.",
+    img: `/assets/menzili-screenshot.png`,
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://menzili.netlify.app/",
   },
-  
 ];
 
 export const testimonials = [
@@ -134,6 +134,31 @@ export const workExperience = [
     thumbnail: `/assets/logo.svg`,
   },
  
+];
+
+export const education = [
+  {
+    id: 1,
+    degree: "Master's in Science and Technology of Information and Communication (STIC)",
+    institution: "University of Constantine 2 — Abdelhamid Mehri",
+    period: "2023 — 2025",
+    status: "Graduated",
+    project: {
+      title: "Menzili: An AI-Powered Property Discovery System",
+      desc: "A platform built to modernize property search using AI, developed collaboratively as a capstone project.",
+      link: "https://menzili.netlify.app/",
+    },
+    thumbnail: "/assets/university_constantine2-logo.jpg",
+  },
+  {
+    id: 2,
+    degree: "Master's in Computer Science",
+    institution: "University of Naples 'Parthenope'",
+    period: "Jan 27, 2026 — Present",
+    status: "In Progress",
+    project: null,
+    thumbnail: "/assets/university_parthenope-logo.jpg",
+  },
 ];
 
 export const socialMedia = [

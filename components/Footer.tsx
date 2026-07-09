@@ -28,7 +28,7 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:youcef.gagi01@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -40,31 +40,37 @@ const Footer = () => {
         <div className="flex items-center md:gap-3 gap-6">
           <Link
             className="cursor-pointer"
-            href={"https://www.linkedin.com/in/youcef-gagi-ab58a2288/"}
+            href="https://www.linkedin.com/in/youcef-gagi-ab58a2288"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Badge className="bg-[#0a66c2] p-1 rouned-sm">
+            <Badge className="bg-[#0a66c2] p-1 rounded-sm">
               <Linkedin className="text-white" fill="white" size={20} />
             </Badge>
           </Link>
           <Link
             className="cursor-pointer"
-            href={"https://www.linkedin.com/in/youcef-gagi-ab58a2288/"}
+            href="https://www.facebook.com/gagi.youcef"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Badge className="bg-[#0a66c2] p-1 rouned-sm">
+            <Badge className="bg-[#1877f2] p-1 rounded-sm">
               <FaFacebook className="text-white" fill="white" size={20} />
             </Badge>
           </Link>
           <Link
             className="cursor-pointer"
-            href={"https://www.linkedin.com/in/youcef-gagi-ab58a2288/"}
+            href="https://github.com/WebDev-dz"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Badge className="p-1 rouned-sm">
+            <Badge className="bg-[#24292e] p-1 rounded-sm">
               <BsGithub className="text-white" fill="white" size={20} />
             </Badge>
           </Link>
-          
+
           <p className="md:text-base text-sm md:font-normal font-light">
-            Copyright © 2024 Youcef Gagi
+            Copyright © 2025 Youcef Gagi
           </p>
         </div>
       </div>
