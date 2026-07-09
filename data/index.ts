@@ -1,5 +1,18 @@
 import { AZURE_SAS } from "@/lib/consts";
 
+export const about = {
+  name: "Youcef Gagi",
+  role: "Software Engineer & Full-Stack Web Developer",
+  summary:
+    "I'm a Software Engineer and Full-Stack Web Developer with a passion for building intelligent, user-centered applications. I hold a Master's in Science and Technology of Information and Communication from the University of Constantine 2, Algeria, where I graduated in 2025 — capping my degree with Menzili, an AI-powered property discovery platform built collaboratively as a capstone project. I'm currently deepening my expertise through a second Master's in Computer Science at the University of Naples 'Parthenope', Italy.",
+  experience:
+    "My industry experience includes two internships at Sonatrach, the largest oil company in Africa — first as an Oracle DBA, where I gained hands-on database administration skills, then as a web application developer building internal tools for the company.",
+  stack:
+    "I specialize in React.js, Next.js, TypeScript, and Tailwind CSS on the frontend, backed by cloud and database expertise in Azure, PostgreSQL, MySQL, and Supabase.",
+  closing:
+    "I thrive in collaborative environments, value open communication with clients, and am always looking for opportunities to solve meaningful problems through technology.",
+};
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
